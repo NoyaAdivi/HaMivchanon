@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_main"
+        android:title="הדף הראשי"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_my_reminder"
+        android:title="התזכורות שלי"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_new_reminder"
+        android:title="תזכורת חדשה"
+        app:showAsAction="never"/>
+
+</menu>

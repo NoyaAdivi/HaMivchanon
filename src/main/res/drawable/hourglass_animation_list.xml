@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@+id/hourglassList"
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/hour1" android:duration="400"></item>
+    <item android:drawable="@drawable/hour2" android:duration="400"></item>
+    <item android:drawable="@drawable/hour3" android:duration="400"></item>
+    <item android:drawable="@drawable/hour4" android:duration="400"></item>
+    <item android:drawable="@drawable/hour5" android:duration="400"></item>
+    <item android:drawable="@drawable/hour6" android:duration="400"></item>
+</animation-list>

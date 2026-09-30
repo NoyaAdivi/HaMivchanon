@@ -1,0 +1,15 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <string name="app_name">Exams</string>
+
+    <string-array name="views">
+        <item>בוחן</item>
+        <item>מבחן</item>
+        <item>עבודה</item>
+        <item>בגרות</item>
+        <item>פרויקט</item>
+        <item>מתכונת</item>
+        <item>שיעורי בית</item>
+    </string-array>
+
+</resources>

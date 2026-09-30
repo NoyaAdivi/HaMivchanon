@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tvName"
+            style="@android:style/Widget.TextView.PopupMenu"
+            android:layout_width="391dp"
+            android:layout_height="76dp"
+            android:layout_gravity="top"
+            android:elegantTextHeight="true"
+            android:fontFamily="serif-monospace"
+            android:fontStyle="italic"
+            android:gravity="top"
+            android:scrollbarStyle="insideOverlay"
+            android:text="התזכורות שלי"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#696969"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSubject1"
+            android:layout_width="match_parent"
+            android:layout_height="670sp"
+            android:layout_gravity="center" />
+
+
+</LinearLayout>
+
+

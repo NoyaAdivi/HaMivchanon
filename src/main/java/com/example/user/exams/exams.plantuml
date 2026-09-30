@@ -1,0 +1,348 @@
+@startuml
+
+title __EXAMS's Class Diagram__\n
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.ClassDocs {
+        ~ myFileIntent : Intent
+        ~ prefs : SharedPreferences
+        ~ tvDoc : TextView
+        {static} - PICK_PDF_FILE : int
+        - btnDocs : Button
+        - database : DatabaseReference
+        - docs : ArrayList<Doc>
+        - downloadUri : Uri
+        - idDoc : String
+        - memoId : String
+        - onItemClickListener : OnClickListener
+        - rvDocs : RecyclerView
+        - storageRef : StorageReference
+        + onClick()
+        # onActivityResult()
+        # onCreate()
+        - openFile()
+        - uploadFile()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.ClassPictures {
+        ~ bitmap : Bitmap
+        ~ imageUri : Uri
+        ~ images : ArrayList<Image>
+        ~ ivPicture : ImageView
+        ~ prefs : SharedPreferences
+        {static} - PICK_IMAGE : int
+        {static} - PICK_IMG_FILE : int
+        {static} - REQUEST_TAKE_PHOTO : int
+        - btnCamera : Button
+        - btnGallery : Button
+        - currentPhotoPath : String
+        - database : DatabaseReference
+        - downloadUri : Uri
+        - memoId : String
+        - onItemClickListener : OnClickListener
+        - rvImage : RecyclerView
+        - storageRef : StorageReference
+        - uploadTask : UploadTask
+        + onClick()
+        # onActivityResult()
+        # onCreate()
+        - createImageFike()
+        - dispatchGalleryPictureIntent()
+        - dispatchTakePictureIntent()
+        - openImageFile()
+        - setPic()
+        - uploadCompressedFile()
+        - uploadFile()
+        - uploadFullImage()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.Doc {
+        - Image : String
+        - idDoc : String
+        - location : String
+        - title : String
+        + Doc()
+        + Doc()
+        + getIdDoc()
+        + getImage()
+        + getLocation()
+        + getTitle()
+        + setIdDoc()
+        + setImage()
+        + setLocation()
+        + setTitle()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.DocAdapter {
+        - docs : ArrayList<Doc>
+        - mOnItemClickListener : OnClickListener
+        + DocAdapter()
+        + getItemCount()
+        + onBindViewHolder()
+        + onCreateViewHolder()
+        + setmOnItemClickListener()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.DocAdapter.DocViewHolder {
+        + ivDoc : ImageView
+        + tvDoc : TextView
+        + DocViewHolder()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.Image {
+        - idImage : String
+        - location : String
+        - title : String
+        + Image()
+        + Image()
+        + getIdImage()
+        + getLocation()
+        + getTitle()
+        + setIdImage()
+        + setLocation()
+        + setTitle()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.ImageAdapter {
+        - images : ArrayList<Image>
+        - mOnItemClickListener : OnClickListener
+        + ImageAdapter()
+        + getItemCount()
+        + onBindViewHolder()
+        + onCreateViewHolder()
+        + setmOnItemClickListener()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.ImageAdapter.imageViewHolder {
+        + ivPicture : ImageView
+        + imageViewHolder()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.MainActivity {
+        {static} + EMAIL : String
+        {static} + ID : String
+        {static} + PREFS_NAME : String
+        ~ prefs : SharedPreferences
+        - btnMyReminder : Button
+        - btnNewReminder : Button
+        - etEmail : EditText
+        - ibEnterMail : ImageButton
+        + onClick()
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.Memo {
+        - dateFinish : String
+        - dateStart : String
+        - description : String
+        - idMemo : String
+        - subject : String
+        - time1 : String
+        - time2 : String
+        - time3 : String
+        + Memo()
+        + Memo()
+        + getDateFinish()
+        + getDateStart()
+        + getDescription()
+        + getIdMemo()
+        + getSubject()
+        + getTime1()
+        + getTime2()
+        + getTime3()
+        + setDateFinish()
+        + setDateStart()
+        + setDescription()
+        + setIdMemo()
+        + setSubject()
+        + setTime1()
+        + setTime2()
+        + setTime3()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.MemoAdapter {
+        - mOnItemClickListener : OnClickListener
+        - memos : ArrayList<Memo>
+        + MemoAdapter()
+        + getItemCount()
+        + onBindViewHolder()
+        + onCreateViewHolder()
+        + setmOnItemClickListener()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.MemoAdapter.MemoViewHolder {
+        + tvDescription : TextView
+        + tvSubject : TextView
+        + MemoViewHolder()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.MyBroadcastReceiver {
+        ~ prefs : SharedPreferences
+        + onReceive()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.MyClass {
+        ~ prefs : SharedPreferences
+        - btnDocs : Button
+        - btnPictures : Button
+        - database : DatabaseReference
+        - ibDelete : ImageButton
+        - memoId : String
+        - memos : ArrayList<Memo>
+        - tvDate : TextView
+        - tvSubject : TextView
+        - tvTime : TextView
+        - tvView : TextView
+        + onClick()
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.MyReminder {
+        ~ prefs : SharedPreferences
+        - database : DatabaseReference
+        - memos : ArrayList<Memo>
+        - onItemClickListener : OnClickListener
+        - rvSubject1 : RecyclerView
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.NewReminder {
+        ~ mContext : Context
+        ~ prefs : SharedPreferences
+        - btnFinish : Button
+        - calendarForWork : Calendar
+        - database : DatabaseReference
+        - etSubject : EditText
+        - hour1 : int
+        - hour2 : int
+        - hour3 : int
+        - ibPlus : ImageButton
+        - minutes1 : int
+        - minutes2 : int
+        - minutes3 : int
+        - reminderType : String
+        - spView : Spinner
+        - time1 : String
+        - time2 : String
+        - time3 : String
+        - tvFromDate : TextView
+        - tvTime1 : TextView
+        - tvTime2 : TextView
+        - tvTime3 : TextView
+        - tvToDate : TextView
+        {static} + getHours()
+        {static} + getMinutes()
+        + onClick()
+        {static} + setWork()
+        {static} + stopWork()
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.OpenPictures {
+        ~ ivPicture : ImageView
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.ReminderWorker {
+        {static} + CHANNEL_ID : String
+        + ReminderWorker()
+        + doWork()
+        - createNotificationChannel()
+    }
+  }
+  
+
+  namespace com.example.user.exams {
+    class com.example.user.exams.StopWorker {
+        + StopWorker()
+        + doWork()
+    }
+  }
+  
+
+  com.example.user.exams.ClassDocs .up.|> android.view.View.OnClickListener
+  com.example.user.exams.ClassDocs -up-|> android.app.Activity
+  com.example.user.exams.ClassPictures .up.|> android.view.View.OnClickListener
+  com.example.user.exams.ClassPictures -up-|> android.app.Activity
+  com.example.user.exams.DocAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  com.example.user.exams.DocAdapter +-down- com.example.user.exams.DocAdapter.DocViewHolder
+  com.example.user.exams.DocAdapter.DocViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  com.example.user.exams.ImageAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  com.example.user.exams.ImageAdapter +-down- com.example.user.exams.ImageAdapter.imageViewHolder
+  com.example.user.exams.ImageAdapter.imageViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  com.example.user.exams.MainActivity .up.|> android.view.View.OnClickListener
+  com.example.user.exams.MainActivity -up-|> android.app.Activity
+  com.example.user.exams.MemoAdapter -up-|> androidx.recyclerview.widget.RecyclerView.Adapter
+  com.example.user.exams.MemoAdapter +-down- com.example.user.exams.MemoAdapter.MemoViewHolder
+  com.example.user.exams.MemoAdapter.MemoViewHolder -up-|> androidx.recyclerview.widget.RecyclerView.ViewHolder
+  com.example.user.exams.MyBroadcastReceiver -up-|> android.content.BroadcastReceiver
+  com.example.user.exams.MyClass .up.|> android.view.View.OnClickListener
+  com.example.user.exams.MyClass -up-|> android.app.Activity
+  com.example.user.exams.MyClass o-- com.example.user.exams.Memo : currentMemmo
+  com.example.user.exams.MyReminder -up-|> android.app.Activity
+  com.example.user.exams.NewReminder .up.|> android.view.View.OnClickListener
+  com.example.user.exams.NewReminder -up-|> android.app.Activity
+  com.example.user.exams.OpenPictures -up-|> android.app.Activity
+  com.example.user.exams.ReminderWorker -up-|> androidx.work.Worker
+  com.example.user.exams.StopWorker -up-|> androidx.work.Worker
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
