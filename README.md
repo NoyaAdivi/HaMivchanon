@@ -3,7 +3,7 @@
 ## About The Project
 "HaMivchanon" is a native Android application developed as a 5-unit Computer Science final project. The app is designed to help students optimize their learning process by providing smart study reminders, time management tools, and a centralized workspace for study materials (documents and images).
 
-*Note: This repository contains the comprehensive Project Portfolio (PDF) which includes the system architecture, UML diagrams, data models, and UI/UX flows. The original source code is no longer available, but the documentation fully demonstrates the technical implementation, planning, and design patterns used.*
+This repository contains the complete source code as well as the comprehensive Project Portfolio (PDF) which includes the system architecture, UML diagrams, data models, and UI/UX flows.
 
 ## Core Features
 *   **Smart Study Reminders:** Scheduled local push notifications utilizing `WorkManager` and `BroadcastReceiver` to manage ongoing alerts based on user-defined date ranges and specific times.
