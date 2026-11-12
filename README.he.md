@@ -12,6 +12,13 @@
   <a href="src/main/java/com/example/user"><img src="https://img.shields.io/badge/%D7%9C%D7%A7%D7%95%D7%93-D9F3E7?style=for-the-badge&logo=android&logoColor=1F7350" alt="לקוד"></a>
 </p>
 
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/NoyaAdivi/HaMivchanon?color=DAD5FF&labelColor=5548C8" alt="License"></a>
+  <a href="https://github.com/NoyaAdivi/HaMivchanon/commits/main"><img src="https://img.shields.io/github/last-commit/NoyaAdivi/HaMivchanon?color=FFD5C9&labelColor=A8483A" alt="Last commit"></a>
+  <a href="https://github.com/NoyaAdivi/HaMivchanon"><img src="https://img.shields.io/github/languages/top/NoyaAdivi/HaMivchanon?color=D9F3E7&labelColor=1F7350" alt="Top language"></a>
+  <a href="https://github.com/NoyaAdivi/HaMivchanon"><img src="https://img.shields.io/github/repo-size/NoyaAdivi/HaMivchanon?color=FBD5E0&labelColor=A03A5C" alt="Repo size"></a>
+</p>
+
 <h3 align="center">תזכורות, חומרי לימוד וניהול זמן לסטודנטים, באפליקציה אחת.</h3>
 
 <p align="center">
@@ -28,8 +35,12 @@
   </tr>
 </table>
 
+<p align="center">
+  <a href="https://github.com/NoyaAdivi/HaMivchanon"><img src="docs/readme/showcase-he.png" width="100%" alt="המבחנון: אפליקציית אנדרואיד לניהול למידה"></a>
+</p>
+
 <a name="highlights"></a>
-<p align="center"><a href="#highlights"><img src="docs/readme/highlights-he.svg" width="100%" alt="מה מיוחד בו"></a></p>
+<p align="center"><a href="HaMivchanon.pdf"><img src="docs/readme/highlights-he.svg" width="100%" alt="מה מיוחד בו"></a></p>
 
 <table>
   <tr valign="top">
@@ -40,7 +51,7 @@
 </table>
 
 <a name="how-it-works"></a>
-<p align="center"><a href="#how-it-works"><img src="docs/readme/how-it-works-he.svg" width="100%" alt="איך זה עובד"></a></p>
+<p align="center"><a href="exams1.png"><img src="docs/readme/how-it-works-he.svg" width="100%" alt="איך זה עובד"></a></p>
 
 ```mermaid
 flowchart RL
@@ -61,7 +72,7 @@ flowchart RL
 ב[תיק הפרויקט](HaMivchanon.pdf) יש את כל התכנון: תרשימי Use Case ורצף, תרשימי מחלקות UML, מבנה מסד הנתונים עם מודלים של JSON ותכנון מלמעלה למטה.
 
 <a name="tech-stack"></a>
-<p align="center"><a href="#tech-stack"><img src="docs/readme/tech-stack-he.svg" width="100%" alt="טכנולוגיות"></a></p>
+<p align="center"><a href="build.gradle"><img src="docs/readme/tech-stack-he.svg" width="100%" alt="טכנולוגיות"></a></p>
 
 <p align="center">
   <a href="https://dev.java"><img src="https://img.shields.io/badge/Java-CFE6FA?style=for-the-badge&logo=openjdk&logoColor=3F6D9F" alt="Java"></a>
@@ -73,7 +84,7 @@ flowchart RL
 </p>
 
 <a name="run-it"></a>
-<p align="center"><a href="#run-it"><img src="docs/readme/run-it-he.svg" width="100%" alt="הרצה"></a></p>
+<p align="center"><a href="https://developer.android.com/studio"><img src="docs/readme/run-it-he.svg" width="100%" alt="הרצה"></a></p>
 
 1. משכפלים את הריפו ופותחים את התיקייה ב־**Android Studio**.
 2. מחכים ש־Gradle יסתנכרן ([`build.gradle`](build.gradle)).
@@ -81,7 +92,7 @@ flowchart RL
 4. מריצים על מכשיר או אמולטור עם אנדרואיד 8.1 (API 27) ומעלה.
 
 <a name="contact"></a>
-<p align="center"><a href="#contact"><img src="docs/readme/footer-he.svg" width="100%" alt="נבנה על ידי נויה אדיבי"></a></p>
+<p align="center"><a href="https://www.linkedin.com/in/noya-adivi/"><img src="docs/readme/footer-he.svg" width="100%" alt="נוצר על ידי נויה אדיבי"></a></p>
 
 <p align="center">
   <a href="https://github.com/NoyaAdivi/HaMivchanon"><img src="https://img.shields.io/badge/%D7%9C%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98-FFD5C9?style=for-the-badge&logo=github&logoColor=A8483A" alt="לפרויקט"></a>

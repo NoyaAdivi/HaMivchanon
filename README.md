@@ -10,6 +10,13 @@
   <a href="src/main/java/com/example/user"><img src="https://img.shields.io/badge/View_code-D9F3E7?style=for-the-badge&logo=android&logoColor=1F7350" alt="View code"></a>
 </p>
 
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/NoyaAdivi/HaMivchanon?color=DAD5FF&labelColor=5548C8" alt="License"></a>
+  <a href="https://github.com/NoyaAdivi/HaMivchanon/commits/main"><img src="https://img.shields.io/github/last-commit/NoyaAdivi/HaMivchanon?color=FFD5C9&labelColor=A8483A" alt="Last commit"></a>
+  <a href="https://github.com/NoyaAdivi/HaMivchanon"><img src="https://img.shields.io/github/languages/top/NoyaAdivi/HaMivchanon?color=D9F3E7&labelColor=1F7350" alt="Top language"></a>
+  <a href="https://github.com/NoyaAdivi/HaMivchanon"><img src="https://img.shields.io/github/repo-size/NoyaAdivi/HaMivchanon?color=FBD5E0&labelColor=A03A5C" alt="Repo size"></a>
+</p>
+
 <h3 align="center">Reminders, materials and time management for students, in one app.</h3>
 
 <p align="center">
@@ -26,8 +33,12 @@
   </tr>
 </table>
 
+<p align="center">
+  <a href="https://github.com/NoyaAdivi/HaMivchanon"><img src="docs/readme/showcase-en.png" width="100%" alt="HaMivchanon: an Android study management app"></a>
+</p>
+
 <a name="highlights"></a>
-<p align="center"><a href="#highlights"><img src="docs/readme/highlights-en.svg" width="100%" alt="Highlights"></a></p>
+<p align="center"><a href="HaMivchanon.pdf"><img src="docs/readme/highlights-en.svg" width="100%" alt="Highlights"></a></p>
 
 <table>
   <tr valign="top">
@@ -38,7 +49,7 @@
 </table>
 
 <a name="how-it-works"></a>
-<p align="center"><a href="#how-it-works"><img src="docs/readme/how-it-works-en.svg" width="100%" alt="How it works"></a></p>
+<p align="center"><a href="exams1.png"><img src="docs/readme/how-it-works-en.svg" width="100%" alt="How it works"></a></p>
 
 ```mermaid
 flowchart LR
@@ -59,7 +70,7 @@ flowchart LR
 The [project portfolio](HaMivchanon.pdf) has the full design: use case and sequence diagrams, UML class diagrams, the database structure with JSON models, and a top-down design.
 
 <a name="tech-stack"></a>
-<p align="center"><a href="#tech-stack"><img src="docs/readme/tech-stack-en.svg" width="100%" alt="Tech Stack"></a></p>
+<p align="center"><a href="build.gradle"><img src="docs/readme/tech-stack-en.svg" width="100%" alt="Tech Stack"></a></p>
 
 <p align="center">
   <a href="https://dev.java"><img src="https://img.shields.io/badge/Java-CFE6FA?style=for-the-badge&logo=openjdk&logoColor=3F6D9F" alt="Java"></a>
@@ -71,7 +82,7 @@ The [project portfolio](HaMivchanon.pdf) has the full design: use case and seque
 </p>
 
 <a name="run-it"></a>
-<p align="center"><a href="#run-it"><img src="docs/readme/run-it-en.svg" width="100%" alt="Run it"></a></p>
+<p align="center"><a href="https://developer.android.com/studio"><img src="docs/readme/run-it-en.svg" width="100%" alt="Run it"></a></p>
 
 1. Clone the repository and open the folder in **Android Studio**.
 2. Let Gradle sync ([`build.gradle`](build.gradle)).
@@ -79,7 +90,7 @@ The [project portfolio](HaMivchanon.pdf) has the full design: use case and seque
 4. Run on a device or emulator with Android 8.1 (API 27) or newer.
 
 <a name="contact"></a>
-<p align="center"><a href="#contact"><img src="docs/readme/footer-en.svg" width="100%" alt="Built by Noya Adivi"></a></p>
+<p align="center"><a href="https://www.linkedin.com/in/noya-adivi/"><img src="docs/readme/footer-en.svg" width="100%" alt="Built by Noya Adivi"></a></p>
 
 <p align="center">
   <a href="https://github.com/NoyaAdivi/HaMivchanon"><img src="https://img.shields.io/badge/Open_project-FFD5C9?style=for-the-badge&logo=github&logoColor=A8483A" alt="Open project"></a>
