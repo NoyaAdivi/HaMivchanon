@@ -40,7 +40,7 @@
 </p>
 
 <a name="highlights"></a>
-<p align="center"><a href="HaMivchanon.pdf"><img src="docs/readme/highlights-he.svg" width="100%" alt="מה מיוחד בו"></a></p>
+<p align="center"><a href="#how-it-works"><img src="docs/readme/highlights-he.svg" width="100%" alt="מה מיוחד בו"></a></p>
 
 <table>
   <tr valign="top">
@@ -51,7 +51,7 @@
 </table>
 
 <a name="how-it-works"></a>
-<p align="center"><a href="exams1.png"><img src="docs/readme/how-it-works-he.svg" width="100%" alt="איך זה עובד"></a></p>
+<p align="center"><a href="#tech-stack"><img src="docs/readme/how-it-works-he.svg" width="100%" alt="איך זה עובד"></a></p>
 
 ```mermaid
 flowchart RL
@@ -72,7 +72,7 @@ flowchart RL
 ב[תיק הפרויקט](HaMivchanon.pdf) יש את כל התכנון: תרשימי Use Case ורצף, תרשימי מחלקות UML, מבנה מסד הנתונים עם מודלים של JSON ותכנון מלמעלה למטה.
 
 <a name="tech-stack"></a>
-<p align="center"><a href="build.gradle"><img src="docs/readme/tech-stack-he.svg" width="100%" alt="טכנולוגיות"></a></p>
+<p align="center"><a href="#run-it"><img src="docs/readme/tech-stack-he.svg" width="100%" alt="טכנולוגיות"></a></p>
 
 <p align="center">
   <a href="https://dev.java"><img src="https://img.shields.io/badge/Java-CFE6FA?style=for-the-badge&logo=openjdk&logoColor=3F6D9F" alt="Java"></a>
@@ -84,7 +84,7 @@ flowchart RL
 </p>
 
 <a name="run-it"></a>
-<p align="center"><a href="https://developer.android.com/studio"><img src="docs/readme/run-it-he.svg" width="100%" alt="הרצה"></a></p>
+<p align="center"><a href="#contact"><img src="docs/readme/run-it-he.svg" width="100%" alt="הרצה"></a></p>
 
 1. משכפלים את הריפו ופותחים את התיקייה ב־**Android Studio**.
 2. מחכים ש־Gradle יסתנכרן ([`build.gradle`](build.gradle)).

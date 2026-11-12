@@ -38,7 +38,7 @@
 </p>
 
 <a name="highlights"></a>
-<p align="center"><a href="HaMivchanon.pdf"><img src="docs/readme/highlights-en.svg" width="100%" alt="Highlights"></a></p>
+<p align="center"><a href="#how-it-works"><img src="docs/readme/highlights-en.svg" width="100%" alt="Highlights"></a></p>
 
 <table>
   <tr valign="top">
@@ -49,7 +49,7 @@
 </table>
 
 <a name="how-it-works"></a>
-<p align="center"><a href="exams1.png"><img src="docs/readme/how-it-works-en.svg" width="100%" alt="How it works"></a></p>
+<p align="center"><a href="#tech-stack"><img src="docs/readme/how-it-works-en.svg" width="100%" alt="How it works"></a></p>
 
 ```mermaid
 flowchart LR
@@ -70,7 +70,7 @@ flowchart LR
 The [project portfolio](HaMivchanon.pdf) has the full design: use case and sequence diagrams, UML class diagrams, the database structure with JSON models, and a top-down design.
 
 <a name="tech-stack"></a>
-<p align="center"><a href="build.gradle"><img src="docs/readme/tech-stack-en.svg" width="100%" alt="Tech Stack"></a></p>
+<p align="center"><a href="#run-it"><img src="docs/readme/tech-stack-en.svg" width="100%" alt="Tech Stack"></a></p>
 
 <p align="center">
   <a href="https://dev.java"><img src="https://img.shields.io/badge/Java-CFE6FA?style=for-the-badge&logo=openjdk&logoColor=3F6D9F" alt="Java"></a>
@@ -82,7 +82,7 @@ The [project portfolio](HaMivchanon.pdf) has the full design: use case and seque
 </p>
 
 <a name="run-it"></a>
-<p align="center"><a href="https://developer.android.com/studio"><img src="docs/readme/run-it-en.svg" width="100%" alt="Run it"></a></p>
+<p align="center"><a href="#contact"><img src="docs/readme/run-it-en.svg" width="100%" alt="Run it"></a></p>
 
 1. Clone the repository and open the folder in **Android Studio**.
 2. Let Gradle sync ([`build.gradle`](build.gradle)).
