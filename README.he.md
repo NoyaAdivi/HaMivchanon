@@ -44,7 +44,7 @@
 
 <table>
   <tr valign="top">
-    <td width="33%"><p><b>⏰ תזכורות לימוד חכמות</b></p><ul><li><b>התראות מקומיות</b> עם <code>WorkManager</code> ו־<code>BroadcastReceiver</code></li><li><b>טווח תאריכים ושעות</b> שהתלמיד בוחר</li><li><b>שעונים מונפשים</b> עם Lottie</li></ul></td>
+    <td width="33%"><p><b>⏰ תזכורות לימוד חכמות</b></p><ul><li><b>התראות מקומיות</b> עם <code>WorkManager</code> ו־<code>BroadcastReceiver</code></li><li><b>טווח תאריכים ושעות</b> לבחירתכם</li><li><b>שעונים מונפשים</b> עם Lottie</li></ul></td>
     <td width="33%"><p><b>📚 הכיתה שלי</b></p><ul><li><b>מרחב לכל מקצוע</b> עם כל החומרים שלו</li><li><b>מצלמה, גלריה או PDF</b> ישר מהמכשיר</li><li><b>תמונות עם זום</b> לקריאת סיכומים</li></ul></td>
     <td width="33%"><p><b>☁️ מסונכרן לענן</b></p><ul><li><b>Firebase Realtime Database</b> לתזכורות ולפתקים</li><li><b>Firebase Storage</b> לתמונות ולמסמכים</li><li><b>כניסה פשוטה</b> עם מייל, שנשמר ב־<code>SharedPreferences</code></li></ul></td>
   </tr>
